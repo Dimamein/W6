@@ -1,0 +1,29 @@
+<nav role="navigation" class="navbar navbar-default">
+
+	<div class="">
+		<a href="https://www.teb.pl/" class="navbar-brand">TEB</a>
+	</div>
+
+	<div class="navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li class="main-li active"><a href="/">Home</a></li>
+			<li class="todos-li"><a href="/list-todos">Todos</a></li>
+		</ul>
+		<ul class="nav navbar-nav lang">
+		<c:choose>
+		    <c:when test="${pageContext.response.locale=='en'}">
+		        	<li class="lang-pl"><a href="#">PL</a></li>
+					<li class="lang-en active"><a href="#">EN</a></li>
+		    </c:when>    
+		    <c:otherwise>
+		       <li class="lang-pl active"><a href="#">PL</a></li>
+			   <li class="lang-en"><a href="#">EN</a></li>
+		    </c:otherwise>
+		</c:choose>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/logout">Logout</a></li>
+		</ul>
+	</div>
+
+</nav>

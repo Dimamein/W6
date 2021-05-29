@@ -1,0 +1,8 @@
+pl\tebSpring\todo\Todo.class
+pl\tebSpring\security\SecurityConfiguration.class
+pl\tebSpring\todo\TodoController.class
+pl\tebSpring\exception\ExceptionController.class
+pl\tebSpring\todo\TodoRestController.class
+pl\tebSpring\todo\TodoService.class
+pl\tebSpring\login\WelcomeController.class
+pl\tebSpring\login\LogoutController.class
